@@ -1,0 +1,11 @@
+li{
+list-style-type: none;
+}
+
+.image{
+          width:150px;
+          border-radius: 8px;
+}
+.n{
+          font-size: 15px;
+}

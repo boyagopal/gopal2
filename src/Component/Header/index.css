@@ -1,0 +1,89 @@
+.bg-container{
+  display: flex;
+  justify-content: space-around;
+  background-image:linear-gradient(red, orange);
+  height:90px;
+  padding: 16px;
+  box-shadow: 0 1px 3px -2px black;
+
+}
+
+.logo-container{
+  display: flex; 
+  align-items: center;
+ 
+ 
+}
+
+.logo {
+  height: 70px;
+  border-radius: 8px;
+  
+}
+
+
+.ul-list{
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  color:white;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap:50px;
+}
+
+.ul-list li{
+  gap:3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttondiv{
+  display: flex;
+  align-items: center;
+  gap:40px;
+}                  
+                            
+.ul-list a.active{
+          font-weight: bold;
+          text-decoration: none;
+          color:black;
+}
+
+.buttondiv button {
+  width:160px;
+  height:40px;
+  outline: none;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 19px;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border-color: 1px solid #7a7a7a;
+  border-radius: 74px;
+ 
+}
+
+.buttondiv button.active{
+  background-color: black;
+}
+
+.logout-mobile-btn {
+  border: none;
+  padding: 0px;
+  background: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-mobile-btn {
+    display: none;
+  }
+}
+.logout-icon {
+  width: 24px;
+}

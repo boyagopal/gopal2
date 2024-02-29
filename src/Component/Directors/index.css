@@ -1,0 +1,20 @@
+.heading{
+          font-size: 40px;
+        color:aqua;
+        font-weight: bold;
+}
+
+
+.heros-container{
+          padding-top: 50px;
+}
+
+.u{
+          padding-top: 30px;
+          list-style-type: none;
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          row-gap: 10px;
+          column-gap: 15px;
+}
